@@ -1,0 +1,53 @@
+{
+  "fps": 30,
+  "durationInFrames": 660,
+  "viewport": {
+    "width": 1440,
+    "height": 810
+  },
+  "steps": [
+    {
+      "screen": "calendar",
+      "frame": 60,
+      "x": 112,
+      "y": 104
+    },
+    {
+      "screen": "register",
+      "frame": 128,
+      "x": 346,
+      "y": 728
+    },
+    {
+      "screen": "order",
+      "frame": 198,
+      "x": 401,
+      "y": 283
+    },
+    {
+      "screen": "estimate",
+      "frame": 320,
+      "x": 1188,
+      "y": 454
+    },
+    {
+      "screen": "confirm",
+      "frame": 396,
+      "x": 895,
+      "y": 315
+    },
+    {
+      "screen": "paid",
+      "frame": 492,
+      "x": 112,
+      "y": 204
+    },
+    {
+      "screen": "payments",
+      "frame": 552,
+      "x": 477,
+      "y": 357
+    }
+  ],
+  "finalScreen": "ledger"
+}

@@ -1,0 +1,21 @@
+# Dependencies, builds and local tooling
+node_modules/
+dist/
+.vite/
+.DS_Store
+.env
+.env.*
+!.env.example
+/motion/public/score.wav
+
+# Local archives and earlier landing concepts
+/archive/
+/assets/
+/concept-c/
+/design-system/
+/landings/
+/outputs/
+/work/
+/app.js
+/style.css
+/site/vendor/
