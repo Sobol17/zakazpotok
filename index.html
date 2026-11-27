@@ -13,7 +13,7 @@
   <link rel="icon" href="site/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="site/fonts/onest-400.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="site/images/workshop.webp" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="site/style.css?v=6">
+  <link rel="stylesheet" href="site/style.css?v=9">
   <script src="site/app.js?v=6" defer></script>
 </head>
 <body>
@@ -97,9 +97,21 @@
       </div>
       <div class="pilot-card">
         <h3>14 дней бесплатно</h3>
-        <p class="pilot-intro">В течение пилота ваша команда ведёт свои заказы в CRM и решает, подходит ли ей система.</p>
-        <p class="pilot-price"><span class="pilot-price-label">Если продолжите после пилота</span><span class="pilot-amount">9 900 ₽ / месяц</span></p>
-        <p class="pilot-terms">Предварительный тариф. Стоимость и условия согласуем с вами до начала пилота.</p>
+        <p class="pilot-intro">Пробный период без привязки карты и обязательного внедрения.</p>
+        <div class="pilot-pricing">
+          <p class="pilot-plan">Единый тариф за компанию</p>
+          <dl class="pilot-prices">
+            <div class="pilot-price">
+              <dt>Помесячная оплата</dt>
+              <dd class="pilot-amount">2&nbsp;990&nbsp;₽ / месяц</dd>
+            </div>
+            <div class="pilot-price">
+              <dt>Годовая оплата</dt>
+              <dd class="pilot-amount">29&nbsp;900&nbsp;₽ / год</dd>
+            </div>
+          </dl>
+          <p class="pilot-terms">При оплате за год экономия 5&nbsp;980&nbsp;₽ по сравнению с 12 ежемесячными платежами.</p>
+        </div>
       </div>
       <a class="pilot-cta button button-dark" href="https://max.ru/u/f9LHodD0cOIUaY5eYZxIeN9gC0uRjzScexWE5jFE-eNj7Q5DgPiHirVXPGY" target="_blank" rel="noopener noreferrer">Обсудить пилот в MAX <span aria-hidden="true">↗</span><span class="sr-only"> в новой вкладке</span></a>
     </section>
@@ -109,6 +121,7 @@
       <div class="question-list">
         <article><h3>Кому подойдёт ЗаказПоток?</h3><p>Производителям и монтажникам откатных ворот, ограждений, навесов и металлоизделий. А также другим командам с процессом: заявка → замер → оценка → выполнение.</p></article>
         <article><h3>На каком этапе продукт?</h3><p>Сейчас готовим первую рабочую версию и ищем партнёров для пилота. Вместе проверим систему на вашем процессе перед полноценным запуском.</p></article>
+        <article><h3>Как проходит пробный период?</h3><p>14 дней отсчитываются с момента, когда ваша команда получает доступ к рабочей версии. Если решите продолжить, выберите помесячную или годовую оплату.</p></article>
       </div>
     </section>
   </main>
@@ -161,23 +174,27 @@
         </div>
         <nav class="footer-group" aria-labelledby="footer-documents-title">
           <h2 id="footer-documents-title">Документы</h2>
-          <a class="footer-proposal" href="site/documents/zakazpotok-pilot.pdf">Коммерческое предложение <span>PDF</span></a>
+          <a class="footer-proposal" href="site/documents/zakazpotok-pilot.pdf?v=2">Коммерческое предложение <span>PDF</span></a>
           <a href="privacy/">Политика конфиденциальности</a>
           <a href="consent/">Согласие на обработку персональных данных</a>
           <a href="cookies/">Политика cookies</a>
           <button class="footer-control" id="cookie-settings" type="button" aria-controls="cookie-notice" aria-expanded="false" hidden>Настройки cookies</button>
         </nav>
       </div>
-      <div class="footer-bottom">
-        <div class="footer-operator">
-          <p class="footer-operator-name">ИП Соболинский Игорь Александрович</p>
-          <p class="footer-registration"><span>ИНН 381257713090</span><span>ОГРНИП 326385000111140</span></p>
-          <p>Условия на сайте и в коммерческом предложении не являются публичной офертой.</p>
-        </div>
-        <div class="footer-end">
-          <span>© <span id="current-year">2026</span> ЗаказПоток</span>
-          <a href="#top">Наверх <span aria-hidden="true">↑</span></a>
-        </div>
+      <div class="footer-operator">
+        <p class="footer-operator-name">ИП Соболинский Игорь Александрович</p>
+        <p class="footer-registration"><span>ИНН 381257713090</span><span>ОГРНИП 326385000111140</span></p>
+        <p>Условия на сайте и в коммерческом предложении не являются публичной офертой.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-signature">
+        <a class="footer-credit" href="https://sobolinskii.ru/">
+          <span class="footer-credit-label">Разработка платформы</span>
+          <strong class="footer-credit-name">SOBOLINSKII<span aria-hidden="true">.</span></strong>
+        </a>
+        <span>© <span id="current-year">2026</span> ЗаказПоток · CRM для производителей и монтажников</span>
+        <a class="footer-back" href="#top">К началу страницы</a>
       </div>
     </div>
   </footer>
